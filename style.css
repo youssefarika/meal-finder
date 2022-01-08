@@ -127,8 +127,8 @@ h4 {
   border-radius: 10px;
   box-shadow: 0 2px 20px rgba(0, 0, 0, 0.2);
   overflow: hidden;
-  width: 580px;
-  height: 480px;
+  max-width: 390px;
+  max-height: 490px;
   position: fixed;
   z-index: 1;
   font-size: 24px;
@@ -152,14 +152,15 @@ h4 {
 
 .out-reci img {
   border-radius: 50%;
-  height: 20%;
-  margin-top: 5%;
+  max-height: 95px;
+  max-width: 90px;
+  margin-top: 8%;
   margin-right: 40%;
 }
 
 .out-reci h4 {
   position: absolute;
-  margin-bottom: 11%;
+  margin-bottom: 1%;
   margin-left: 45%;
 }
 
