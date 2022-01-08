@@ -1,0 +1,181 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600&display=swap");
+
+* {
+  font-family: "Nunito";
+}
+
+.subject {
+  text-align: center;
+  margin-top: 90px;
+}
+
+.subject h1 {
+  font-size: 35px;
+}
+
+.subject h4 {
+  font-size: 18px;
+  color: rgb(97, 94, 94);
+  margin-top: 5px;
+}
+
+.subject h5 {
+  font-size: 18px;
+  color: rgb(97, 94, 94);
+  position: relative;
+  bottom: 15px;
+}
+
+.subject input {
+  height: 16px;
+  width: 450px;
+  border-radius: 28px;
+  border: none;
+  border: 1px solid #d65108;
+  outline: none;
+  color: #d65108;
+  font-size: 20px;
+  padding: 18px;
+  transform: translateX(5%);
+  margin-bottom: 25px;
+}
+
+::placeholder {
+  color: #d65108;
+}
+
+.subject button {
+  padding-bottom: 8px;
+  width: 54px;
+  height: 54px;
+  color: white;
+  background-color: #d65108;
+  border-top-right-radius: 28px;
+  border-bottom-right-radius: 28px;
+  border: none;
+  position: relative;
+  right: 25px;
+  cursor: pointer;
+}
+
+button i {
+  font-size: 28px;
+}
+
+h2 {
+  font-size: 34px;
+  margin-bottom: 15px;
+  font-weight: bold;
+}
+
+.card img {
+  width: 100%;
+}
+
+.meals {
+  display: flex;
+  justify-content: space-evenly;
+  padding-left: 35px;
+  padding-bottom: 95px;
+  margin-bottom: 65px;
+}
+
+.card {
+  margin: 10px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 20px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+  width: 400px;
+  height: 624px;
+  transform: translateY(20%);
+}
+
+.card h3,
+h4 {
+  position: relative;
+  bottom: 15px;
+}
+
+.sub {
+  font-size: 24px;
+  margin-left: 15px;
+}
+.calo,
+.diet {
+  position: relative;
+  bottom: 15px;
+  margin-left: 15px;
+}
+.diet {
+  position: relative;
+  bottom: 28px;
+}
+
+.health {
+  position: relative;
+  bottom: 42px;
+  left: 15px;
+}
+
+.meals {
+  visibility: hidden;
+}
+
+.out-reci {
+  background-color: #d65108;
+  border-radius: 10px;
+  box-shadow: 0 2px 20px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+  width: 580px;
+  height: 480px;
+  position: fixed;
+  z-index: 1;
+  font-size: 24px;
+  color: white;
+  text-align: center;
+  padding-top: 65px;
+  visibility: hidden;
+  transform: translateY(-20%);
+}
+
+.butt-reci button {
+  border-radius: 50%;
+  border: none;
+  cursor: pointer;
+  height: 45px;
+  width: 45px;
+  position: absolute;
+  top: 2%;
+  right: 0px;
+}
+
+.out-reci img {
+  border-radius: 50%;
+  height: 20%;
+  margin-top: 5%;
+  margin-right: 40%;
+}
+
+.out-reci h4 {
+  position: absolute;
+  margin-bottom: 11%;
+  margin-left: 45%;
+}
+
+.get {
+  border: none;
+  color: white;
+  background-color: #d65108;
+  position: absolute;
+  bottom: 11px;
+  left: 14px;
+  padding: 15px 25px;
+  border-radius: 8px;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.out-reci.show {
+  visibility: visible;
+}
