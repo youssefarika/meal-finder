@@ -180,3 +180,62 @@ h4 {
 .out-reci.show {
   visibility: visible;
 }
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  .subject input {
+    width: 72%;
+  }
+  .card {
+    height: 425px;
+    width: 280px;
+    transform: translateX(-5%);
+  }
+  .card img {
+    height: 50%;
+  }
+  .get {
+    padding: 5px 5px;
+    height: 10%;
+    width: 48%;
+    font-size: 18px;
+    transform: translateX(35%);
+  }
+  .card h4 {
+    font-size: 16px;
+  }
+  .card h3 {
+    font-size: 22px;
+  }
+  .meals {
+    display: flex;
+    flex-wrap: wrap;
+    width: 90%;
+  }
+  .out-reci {
+    transform: translate(-4%, -38%);
+  }
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+  .subject input {
+    width: 72%;
+  }
+  .card {
+    max-height: 445px;
+    width: 280px;
+    transform: translateX(-5%);
+  }
+  .card img {
+    height: 42%;
+  }
+  .get {
+    padding: 5px 5px;
+    height: 10%;
+    width: 48%;
+    font-size: 18px;
+    transform: translateX(35%);
+  }
+  .out-reci {
+    transform: translate(-4%, -68%);
+  }
+}
